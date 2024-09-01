@@ -1,0 +1,29 @@
+header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        button {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            font-size: 5rem;
+            background: linear-gradient(hsla(0, 97%, 47%, 0.533), hsla(0, 0%, 100%, 0.396));
+            margin-right: 20px;
+            margin-top: 30px;
+            cursor: pointer;
+            &:hover{
+            background: linear-gradient(hsla(0, 97%, 47%, 0.533), hsla(0, 10%, 8%, 0.396));
+            }
+    
+        }
+        p{
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: bolder;
+        }
+        #result{
+            margin-top: 15px;
+            font-size: 4rem;
+        }
+    } 
